@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.product-detail-slick-item.left-item .slick-list > div {
+  margin-left: 0;
+}
+
+.product-detail-slick-item .slick-list .slick-track .slick-slide {
+  display: flex !important;
+  justify-content: left !important;
+  width: auto !important;
+  margin-right: 8px;
+}
